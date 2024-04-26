@@ -1,0 +1,52 @@
+html {
+    background-color:bisque;
+}
+
+h1 {
+    font-style: italic;
+}
+
+#celebration {
+    color: lime;
+    font-size: 75px;
+    max-width: fit-content;
+    margin:auto;
+}
+
+#celebration-text {
+    font-size: 50px;
+    margin: auto;
+    max-width:fit-content
+}
+
+#hint {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#incorrect {
+    margin-top: 10px;
+    text-align: center;
+
+    font-style: italic;
+    font-size: 20px;
+    color: red;
+    font-weight: 10px;
+}
+
+#sign_in {
+
+    max-width: fit-content;
+    margin:auto;
+    margin-top: 250px;
+    padding:35px;
+
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+}
+
+button
+{
+    width: 100px;
+}

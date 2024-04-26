@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hack Challenge</title>
+    <link href="../static/css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="sign_in">
+        <h1>Welcome to Corp</h1>
+        <h2>Enter your information</h2>
+        <form action="/" method="post">
+            <p>Username: <input name="username"></p>
+            <p>Password: <input name="password"></p>
+            <button>Enter</button>
+        </form>
+
+    </div>
+    {% if not correct %}
+    <p id="incorrect"> The details you inputted are wrong, try again</p>
+    {% endif %}
+    <div id="hint">
+        <p>psst, your username is {{ username }}</p>
+        <p>Good luck with your password :)</p>
+        {% if count <= 0 %}
+        <p>Since you're struggling, the password is {{ password }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
